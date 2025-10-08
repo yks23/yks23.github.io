@@ -9,9 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>(+86)13713371180</p>
+    <p>Shanghai, China</p>
 
 selected_papers: True # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -30,7 +29,7 @@ latest_posts:
 
 ## 🧑‍🎓 Biography
 
-I am a third-year undergraduate student in the **Department of Automation** at **Shanghai Jiao Tong University (SJTU)** 🚢. I maintain a strong academic record with a GPA of $\text{3.9/4.3}$, ranking $\text{15th}$ out of $\text{100}$ students. 📊
+I am a third-year undergraduate student in the **Department of Automation** at **Shanghai Jiao Tong University (SJTU)** 🚢. I maintain an academic record with a GPA of $\text{3.9/4.3}$, ranking $\text{15th}$ out of $\text{100}$ students. 📊
 
 Currently, I am conducting research as a student researcher in Professor **Yulun Zhang's lab**, focusing on the critical and evolving field of **Efficient AI** 💡. My research interests center on techniques to enhance the performance and accessibility of large-scale models, specifically through:
 
