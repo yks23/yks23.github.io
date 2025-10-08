@@ -1,0 +1,23 @@
+/* --- 为特定的会议/平台缩写指定颜色 --- */
+
+/* 1. ICML - 红色 (Red) */
+a[abbr="ICML"] {
+  /* 确保文本颜色是红色 */
+  color: #e53935 !important; 
+  /* 可选：添加背景或边框让它更突出 */
+  /* border: 1px solid #e53935; */
+  /* padding: 1px 4px; */
+  /* border-radius: 4px; */
+}
+
+/* 2. ArXiv - 绿色 (Green) */
+a[abbr="ArXiv"] {
+  /* 确保文本颜色是绿色 */
+  color: #43a047 !important; 
+}
+
+
+/* 4. （示例）CVPR - 紫色 */
+a[abbr="CVPR"] {
+  color: #8e24aa !important;
+}
