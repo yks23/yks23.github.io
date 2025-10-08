@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Student Researcher at Shanghai Jiao Tong University. | kaichengy62@gmail.com
 
 profile:
   align: right
@@ -25,10 +25,30 @@ latest_posts:
   enabled: False
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
+
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+## 🧑‍🎓 Biography
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a third-year undergraduate student in the **Department of Automation** at **Shanghai Jiao Tong University (SJTU)** 🚢. I maintain a strong academic record with a GPA of $\text{3.9/4.3}$, ranking $\text{15th}$ out of $\text{100}$ students. 📊
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Currently, I am conducting research as a student researcher in Professor **Yulun Zhang's lab**, focusing on the critical and evolving field of **Efficient AI** 💡. My research interests center on techniques to enhance the performance and accessibility of large-scale models, specifically through:
+
+* **Model Compression and Quantization** 💾
+* **Accelerated Diffusion Models** 🚀
+* **Efficient Sampling Methods for Large Language Models (LLMs)** 🧠
+
+I am passionate about exploring methods to build powerful yet resource-conscious AI systems that push the boundaries of computational efficiency. ⚡
+
+---
+
+## 📣 News / Announcements
+
+* **\[2025.9\]** 💰 Receive **¥100,000 RMB** in support from the **National Natural Science Foundation of China (NSFC)** for my research project.
+* **\[2025.9\]** ✍️ 3 preprints released on **arXiv**.
+* **\[2025.5\]** 🎉 Our paper, **BiMaCoSR**, has been accepted to **ICML 2025**!
+* **\[2025.3\]** 📝 2 preprints released on **arXiv**.
+* **\[2024.12\]** 🏆 Awarded the **Infineon Scholarship**.
+* **\[2024.12\]** 🏅 Awarded the **University Second-Class Scholarship**.
+* **\[2023.11\]** 🥇 Won the **First Prize** in the 15th National College Student Mathematics Competition.
+

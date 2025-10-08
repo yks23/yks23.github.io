@@ -47,7 +47,7 @@ repo_trophies:
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
+search_enabled: False
 socials_in_search: true
 posts_in_search: true
 bib_search: true
@@ -281,9 +281,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
-
+  last_name: [Yang, "Yang†"] # 包含带特殊符号和不带特殊符号的姓
+  first_name: [Kaicheng, K.]
   style: apa
   locale: en
 
