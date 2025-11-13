@@ -85,7 +85,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Kaicheng's Blog # blog_name will be displayed in your blog page
+blog_name: Kaisen's Blog # blog_name will be displayed in your blog page
 blog_description: Thoughts and notes on machine learning, AI, research, and programming.
 permalink: /blog/:year/:month/:title/
 lsi: false # produce an index for related posts
@@ -282,7 +282,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Yang, "Yang†"] # 包含带特殊符号和不带特殊符号的姓
-  first_name: [Kaicheng, K.]
+  first_name: [Kaisen, K.]
   style: apa
   locale: en
 
