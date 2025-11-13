@@ -42,12 +42,12 @@ I am passionate about exploring methods to build powerful yet resource-conscious
 ---
 
 ## 📣 News / Announcements
-
+* **\[2025.11\]** 🏆 Awarded the **Ruiqi Scholarship (20000 RMB)**.
 * **\[2025.9\]** 💰 Receive **¥30,000 RMB** in support from the Beijing Natural Science Foundation for my research project.
 * **\[2025.9\]** ✍️ 2 preprints released on **arXiv**.
 * **\[2025.9\]** ✍️ Our paper, **Impromptu VLA**, has been accepted to **NeurIPS 2025**!
 * **\[2025.5\]** 🎉 Our paper, **Tree-KG**, has been accepted to **ACL 2025**!
-* **\[2024.12\]** 🏆 Awarded the **WangDazhong Scholarship**.
+* **\[2024.11\]** 🏆 Awarded the **WangDazhong Scholarship (20000 RMB)**.
 
 ## Affiliations
 * **Vice chairman** of **Students' Association of Science and Technology in CST**.
