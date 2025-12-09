@@ -42,6 +42,8 @@ I am passionate about exploring methods to build powerful yet resource-conscious
 ---
 
 ## 📣 News / Announcements
+* **\[2025.12\]** ✍️ 1 preprints released on **arXiv**.
+* **\[2025.11\]** 🎉 Awarded **2025 九井之星**.
 * **\[2025.11\]** 🏆 Awarded the **Ruiqi Scholarship (20000 RMB)**.
 * **\[2025.9\]** 💰 Receive **¥30,000 RMB** in support from the Beijing Natural Science Foundation for my research project.
 * **\[2025.9\]** ✍️ 2 preprints released on **arXiv**.
