@@ -45,6 +45,7 @@ I am passionate about exploring methods to build powerful yet resource-conscious
 ## 📣 News / Announcements
 * **\[2026.02\]** ✍️ 1 preprint released on **arXiv**.
 * **\[2026.02\]** 🎉 Our paper, **PAM**, has been accepted to **CVPR 2026**!
+* **\[2026.01\]** 🎉 Our paper, **CubeBench**, has been accepted to **ICLR 2026**!
 * **\[2025.12\]** ✍️ 1 preprint released on **arXiv**.
 * **\[2025.11\]** 🎉 Awarded **2025 九井之星**.
 * **\[2025.11\]** 🏆 Awarded the **Ruiqi Scholarship (20000 RMB)**.
