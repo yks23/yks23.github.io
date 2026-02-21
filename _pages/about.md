@@ -33,16 +33,19 @@ I am a third-year undergraduate student in the **Department of Computer Science 
 
 Currently, I am conducting research as a student researcher in Professor **Alex Lamb's lab**, focusing on the critical and evolving field of **LLM Reasoning** 💡. My research interests center on techniques to enhance the performance and accessibility of Generative Models, especially the following listed fields:
 
-* **Diffusion Model Compression and Quantization** 💾
-* **Structured LLM Reasoning** 🧠
-* **Diffusion LLM** 🚀
+* **Diffusion Model Compression and Quantization**
+* **Structured LLM Reasoning** 
+* **Masked Diffusion Model**
+* **Attention Mechanism**
 
 I am passionate about exploring methods to build powerful yet resource-conscious AI systems that push the boundaries of computational efficiency. ⚡
 
 ---
 
 ## 📣 News / Announcements
-* **\[2025.12\]** ✍️ 1 preprints released on **arXiv**.
+* **\[2026.02\]** ✍️ 1 preprint released on **arXiv**.
+* **\[2026.02\]** 🎉 Our paper, **PAM**, has been accepted to **CVPR 2026**!
+* **\[2025.12\]** ✍️ 1 preprint released on **arXiv**.
 * **\[2025.11\]** 🎉 Awarded **2025 九井之星**.
 * **\[2025.11\]** 🏆 Awarded the **Ruiqi Scholarship (20000 RMB)**.
 * **\[2025.9\]** 💰 Receive **¥30,000 RMB** in support from the Beijing Natural Science Foundation for my research project.
