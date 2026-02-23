@@ -57,11 +57,11 @@ layout: default
     {% endif %}
 
     <!-- Selected papers -->
-    {% if page.selected_papers %}
+    {% if page.selected_papers and page.selected_papers.enabled != false %}
       <h2>
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
       </h2>
-      {% include selected_papers.liquid %}
+      {% include selected_papers.liquid limit=page.selected_papers.limit %}
     {% endif %}
 
     <!-- Social -->

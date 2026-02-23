@@ -1,3 +1,10 @@
 <div class="publications">
   {% bibliography --group_by none --query @*[selected=true]* %}
 </div>
+{% if include.limit %}
+<style>
+  .publications > .bibtex-entry:nth-child(n+{{ include.limit | plus: 1 }}) {
+    display: none;
+  }
+</style>
+{% endif %}

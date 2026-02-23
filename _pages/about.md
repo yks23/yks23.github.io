@@ -12,13 +12,15 @@ profile:
     <p>(+86)15019000811</p>
     <p>Beijing, China</p>
 
-selected_papers: True # includes a list of papers marked as "selected={true}"
+selected_papers: 
+  enabled: true # includes a list of papers marked as "selected={true}"
+  limit: 4 # limit the number of papers shown on homepage (leave blank to show all)
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: False # includes a list of news items
+  enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 6 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: False
@@ -42,19 +44,6 @@ I am passionate about exploring methods to build powerful yet resource-conscious
 
 ---
 
-## 📣 News / Announcements
-* **\[2026.02\]** ✍️ 1 preprint released on **arXiv**.
-* **\[2026.02\]** 🎉 Our paper, **PAM**, has been accepted to **CVPR 2026**!
-* **\[2026.01\]** 🎉 Our paper, **CubeBench**, has been accepted to **ICLR 2026**!
-* **\[2025.12\]** ✍️ 1 preprint released on **arXiv**.
-* **\[2025.11\]** 🎉 Awarded **2025 九井之星**.
-* **\[2025.11\]** 🏆 Awarded the **Ruiqi Scholarship (20000 RMB)**.
-* **\[2025.9\]** 💰 Receive **¥30,000 RMB** in support from the Beijing Natural Science Foundation for my research project.
-* **\[2025.9\]** ✍️ 2 preprints released on **arXiv**.
-* **\[2025.9\]** ✍️ Our paper, **Impromptu VLA**, has been accepted to **NeurIPS 2025**!
-* **\[2025.5\]** 🎉 Our paper, **Tree-KG**, has been accepted to **ACL 2025**!
-* **\[2024.11\]** 🏆 Awarded the **WangDazhong Scholarship (20000 RMB)**.
-
-## Affiliations
+## 🏢 Affiliations
 * **Vice chairman** of **Students' Association of Science and Technology in CST**.
 * **Member** of **19th Spark Program**.
