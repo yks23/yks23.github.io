@@ -86,6 +86,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-pam-has-been-accepted-to-cvpr-2026",
           title: '🎉 Our paper, PAM, has been accepted to CVPR 2026!',
           description: "",
+          section: "News",},{id: "news-2-papers-have-been-accepted-to-icml-2026",
+          title: '🎉 2 papers have been accepted to ICML 2026!',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
