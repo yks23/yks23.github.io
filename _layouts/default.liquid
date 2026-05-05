@@ -17,6 +17,9 @@
 
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+    {% if page.permalink == '/' or page.url == '/' or page.url == '/index.html' %}
+      {% include home_splash.liquid %}
+    {% endif %}
     <!-- Header -->
     {% include header.liquid %}
 

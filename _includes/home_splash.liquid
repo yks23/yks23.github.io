@@ -1,0 +1,24 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+  href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&display=swap"
+  rel="stylesheet"
+>
+<div
+  id="home-splash"
+  class="home-splash"
+  role="button"
+  aria-label="Enter site"
+  lang="en"
+>
+  <canvas class="home-splash__canvas" aria-hidden="true"></canvas>
+  <div class="home-splash__veil" aria-hidden="true"></div>
+  <div class="home-splash__content">
+    <h1 class="home-splash__name">Kaisen Yang</h1>
+    <p class="home-splash__tagline">
+      I don&rsquo;t think AI has much theory&mdash;if it does, it&rsquo;s probably information theory. Every mature structure is a minimum cut on the flow of information.
+    </p>
+    <span class="home-splash__hint">Click to enter</span>
+  </div>
+</div>
+<script defer src="{{ '/assets/js/home-splash.js' | relative_url | bust_file_cache }}"></script>
