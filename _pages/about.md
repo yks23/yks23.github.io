@@ -76,7 +76,7 @@ I care less about chasing a single architecture, and more about the question: �
 
 ---
 
-## 🎵 Music
+## 🎵 喜欢的音乐
 
 {% include home_music_section.liquid %}
 
