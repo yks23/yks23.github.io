@@ -76,12 +76,6 @@ I care less about chasing a single architecture, and more about the question: �
 
 ---
 
-## 🎵 喜欢的音乐
-
-{% include home_music_section.liquid %}
-
----
-
 ## 🏢 Service &amp; Activities
 
 * **Vice Chairman**, Students&rsquo; Association of Science and Technology, Department of CST, Tsinghua University.
