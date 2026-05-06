@@ -4,6 +4,10 @@
 (function () {
   const STORAGE_KEY = "yks23_home_splash_seen";
 
+  function clearSplashPending() {
+    document.documentElement.classList.remove("home-splash-pending");
+  }
+
   function lockScroll(lock) {
     document.documentElement.classList.toggle("home-splash--locked", lock);
   }
@@ -109,6 +113,7 @@
   }
 
   function dismiss(root) {
+    clearSplashPending();
     root.classList.add("home-splash--hide");
     lockScroll(false);
     sessionStorage.setItem(STORAGE_KEY, "1");
@@ -122,6 +127,7 @@
     if (!root) return;
 
     if (sessionStorage.getItem(STORAGE_KEY) === "1") {
+      clearSplashPending();
       root.remove();
       return;
     }

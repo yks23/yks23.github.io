@@ -35,34 +35,22 @@ I am a third-year undergraduate at the **Department of Computer Science and Tech
 
 I am broadly fascinated by **Generative Models** — how we train them, structure them, and stress-test them. Concretely, my current work spans three layers:
 
-<div class="row mt-2 mb-3">
-  <div class="col-md-4 mb-2">
-    <div class="p-3 h-100" style="border:1px solid var(--global-divider-color); border-radius:10px;">
-      <div style="font-size:0.78rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--global-theme-color); font-weight:600;">Layer 1 · Paradigms</div>
-      <div class="mt-1"><strong>Modeling Paradigms</strong></div>
-      <div class="mt-1" style="font-size:0.92rem; opacity:0.85;">
-        Masked / discrete diffusion, structured reasoning, autoregressive vs. non-autoregressive generation.
-      </div>
-    </div>
-  </div>
-  <div class="col-md-4 mb-2">
-    <div class="p-3 h-100" style="border:1px solid var(--global-divider-color); border-radius:10px;">
-      <div style="font-size:0.78rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--global-theme-color); font-weight:600;">Layer 2 · Systems</div>
-      <div class="mt-1"><strong>Architectures &amp; Efficiency</strong></div>
-      <div class="mt-1" style="font-size:0.92rem; opacity:0.85;">
-        Diffusion-Transformer quantization, sampler design, attention mechanism.
-      </div>
-    </div>
-  </div>
-  <div class="col-md-4 mb-2">
-    <div class="p-3 h-100" style="border:1px solid var(--global-divider-color); border-radius:10px;">
-      <div style="font-size:0.78rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--global-theme-color); font-weight:600;">Layer 3 · Evidence</div>
-      <div class="mt-1"><strong>Data &amp; Benchmark</strong></div>
-      <div class="mt-1" style="font-size:0.92rem; opacity:0.85;">
-        Building datasets and benchmarks that actually expose what generative models can — and can&rsquo;t — do.
-      </div>
-    </div>
-  </div>
+<div class="research-layers mt-3 mb-4" aria-label="Research layers">
+  <section class="research-layer-card research-layer-card--paradigms">
+    <div class="research-layer-card__meta">Layer 1 · Paradigms</div>
+    <h3>Modeling Paradigms</h3>
+    <p>Masked and discrete diffusion, structured reasoning, and the boundary between autoregressive and non-autoregressive generation.</p>
+  </section>
+  <section class="research-layer-card research-layer-card--systems">
+    <div class="research-layer-card__meta">Layer 2 · Systems</div>
+    <h3>Architectures &amp; Efficiency</h3>
+    <p>Diffusion-Transformer quantization, sampler design, and attention mechanisms for faster, more reliable generation.</p>
+  </section>
+  <section class="research-layer-card research-layer-card--evidence">
+    <div class="research-layer-card__meta">Layer 3 · Evidence</div>
+    <h3>Data &amp; Benchmark</h3>
+    <p>Datasets and benchmarks that expose what generative models can do, where they fail, and why the failure matters.</p>
+  </section>
 </div>
 
 I care less about chasing a single architecture, and more about the question: ⚡ *what is the smallest set of inductive biases (paradigm + architecture) that, given the right data, gets us a robust generative model?*
@@ -85,6 +73,12 @@ I care less about chasing a single architecture, and more about the question: �
     </div>
   </div>
 </div>
+
+---
+
+## 🎵 Music
+
+{% include home_music_section.liquid %}
 
 ---
 

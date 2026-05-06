@@ -1,7 +1,32 @@
+{% assign is_home_splash = false %}
+{% if page.permalink == '/' or page.url == '/' or page.url == '/index.html' %}
+  {% assign is_home_splash = true %}
+{% endif %}
 <!doctype html>
-<html lang="{{ site.lang }}">
+<html lang="{{ site.lang }}"{% if is_home_splash %} class="home-splash-pending"{% endif %}>
   <!-- Head -->
   <head>
+    {% if is_home_splash %}
+      <style id="home-splash-critical">
+        html.home-splash-pending,
+        html.home-splash-pending body {
+          background: #050a14 !important;
+        }
+        html.home-splash-pending body > *:not(#home-splash) {
+          visibility: hidden !important;
+        }
+      </style>
+      <noscript>
+        <style>
+          html.home-splash-pending body > * {
+            visibility: visible !important;
+          }
+          #home-splash {
+            display: none !important;
+          }
+        </style>
+      </noscript>
+    {% endif %}
     {% if page.redirect %}
       {% if page.redirect == true %}
         {% assign redirect = site.baseurl | append: '/' %}
@@ -16,12 +41,15 @@
   </head>
 
   <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
-    {% if page.permalink == '/' or page.url == '/' or page.url == '/index.html' %}
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}{% if is_home_splash %} home-turb-decor{% endif %}">
+    {% if is_home_splash %}
       {% include home_splash.liquid %}
     {% endif %}
     <!-- Header -->
     {% include header.liquid %}
+    {% if is_home_splash %}
+      {% include home_turbulence_holes.liquid %}
+    {% endif %}
 
     <!-- Content -->
     <div class="container mt-5" role="main">

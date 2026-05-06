@@ -12,6 +12,26 @@
   lang="en"
 >
   <canvas class="home-splash__canvas" aria-hidden="true"></canvas>
+  <script>
+    (function () {
+      var root = document.getElementById("home-splash");
+      if (!root) return;
+      var c = root.querySelector(".home-splash__canvas");
+      if (!c || !c.getContext) return;
+      var w = window.innerWidth;
+      var h = window.innerHeight;
+      var d = Math.min(window.devicePixelRatio || 1, 2);
+      c.width = Math.floor(w * d);
+      c.height = Math.floor(h * d);
+      c.style.width = w + "px";
+      c.style.height = h + "px";
+      var ctx = c.getContext("2d");
+      if (!ctx) return;
+      ctx.setTransform(d, 0, 0, d, 0, 0);
+      ctx.fillStyle = "#050a14";
+      ctx.fillRect(0, 0, w, h);
+    })();
+  </script>
   <div class="home-splash__veil" aria-hidden="true"></div>
   <div class="home-splash__content">
     <h1 class="home-splash__name">Kaisen Yang</h1>

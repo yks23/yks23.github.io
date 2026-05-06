@@ -1,0 +1,108 @@
+// Music section on homepage
+
+.music-panel {
+  position: relative;
+  margin: 1.25rem 0 0.5rem;
+  padding: 1.15rem 1.25rem 1.2rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 10px;
+  background-color: var(--global-bg-color);
+  background-image: linear-gradient(125deg, rgba(128, 132, 140, 0.09) 0%, transparent 52%);
+  box-shadow: 0 8px 26px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.music-panel::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 4px;
+  border-radius: 10px 0 0 10px;
+  background: var(--global-theme-color);
+  opacity: 0.72;
+}
+
+.music-panel__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
+  gap: 1rem 1.35rem;
+  align-items: start;
+}
+
+@media (max-width: 767.98px) {
+  .music-panel__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.music-panel__note {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--global-text-color);
+  opacity: 0.88;
+}
+
+.music-panel__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.music-panel__list li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.45rem;
+  margin-bottom: 0.45rem;
+}
+
+.music-panel__list li:last-child {
+  margin-bottom: 0;
+}
+
+.music-panel__tag {
+  flex: 0 0 auto;
+  font-family: var(--global-font-mono, monospace);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--global-theme-color);
+}
+
+.music-panel__pulse {
+  display: inline-block;
+  width: 0.45rem;
+  height: 0.45rem;
+  margin-right: 0.35rem;
+  border-radius: 50%;
+  background: var(--global-theme-color);
+  vertical-align: middle;
+  opacity: 0.85;
+  animation: music-panel-pulse 1.8s ease-in-out infinite;
+}
+
+@keyframes music-panel-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.45;
+  }
+  50% {
+    transform: scale(1.25);
+    opacity: 1;
+  }
+}
+
+html[data-theme="dark"] .music-panel {
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.2);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .music-panel__pulse {
+    animation: none;
+    opacity: 0.75;
+  }
+}
