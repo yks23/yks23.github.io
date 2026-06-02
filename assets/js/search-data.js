@@ -89,6 +89,9 @@ ninja.data = [{
           section: "News",},{id: "news-2-papers-have-been-accepted-to-icml-2026",
           title: '🎉 2 papers have been accepted to ICML 2026!',
           description: "",
+          section: "News",},{id: "news-i-became-chairman-of-sast-of-the-computer-science-and-technology-cst-department",
+          title: 'I became Chairman of SAST of the Computer Science and Technology (CST) department....',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
