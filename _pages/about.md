@@ -27,6 +27,9 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 
+dynamics:
+  enabled: true
+
 ---
 
 ## 🧑‍🎓 Biography
@@ -54,28 +57,6 @@ I am broadly fascinated by **Generative Models** — how we train them, structur
 </div>
 
 I care less about chasing a single architecture, and more about the question: ⚡ *what is the smallest set of inductive biases (paradigm + architecture) that, given the right data, gets us a robust generative model?*
-
-<div class="featured-paper my-4" aria-label="Featured ICML 2026 paper">
-  <div class="featured-paper__meta">Featured paper · ICML 2026</div>
-  <div class="featured-paper__body">
-    <h3>Improving Sampling for Masked Diffusion Models via Information Gain</h3>
-    <p>
-      We show that greedy MDM samplers are myopic: they select locally certain tokens without accounting for downstream effects.
-      Info-Gain Sampler is a training-free decoding method that balances immediate uncertainty with information gained over
-      remaining masked positions.
-    </p>
-    <div class="featured-paper__stats" aria-label="Paper highlights">
-      <span><strong>2.9–11.6 pp</strong> reasoning gains</span>
-      <span><strong>62.8%</strong> creative-writing win rate</span>
-      <span><strong>training-free</strong> sampler</span>
-    </div>
-    <div class="featured-paper__links">
-      <a href="https://arxiv.org/abs/2602.18176">arXiv</a>
-      <a href="https://yks23.github.io/info-gain-sampler/">Project page</a>
-      <a href="https://github.com/yks23/info-gain-sampler">Code</a>
-    </div>
-  </div>
-</div>
 
 ---
 
