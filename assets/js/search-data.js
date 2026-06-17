@@ -92,6 +92,12 @@ ninja.data = [{
           section: "News",},{id: "news-i-became-chairman-of-sast-of-the-computer-science-and-technology-cst-department",
           title: 'I became Chairman of SAST of the Computer Science and Technology (CST) department....',
           description: "",
+          section: "News",},{id: "news-️-our-paper-voidpadding-is-released-on-arxiv",
+          title: '✍️ Our paper, VoidPadding, is released on arXiv.',
+          description: "",
+          section: "News",},{id: "news-awarded-the-sensetime-scholarship-2026",
+          title: '🏆 Awarded the SenseTime Scholarship 2026.',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
