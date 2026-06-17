@@ -6,6 +6,12 @@ body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+  font-family: var(--global-font);
+  font-feature-settings:
+    "kern" 1,
+    "liga" 1,
+    "calt" 1;
+  text-rendering: optimizeLegibility;
 
   h1,
   h2,
@@ -14,6 +20,9 @@ body {
   h5,
   h6 {
     scroll-margin-top: 66px;
+    font-family: var(--global-heading-font);
+    font-weight: 650;
+    letter-spacing: 0;
   }
 }
 

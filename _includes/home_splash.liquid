@@ -1,9 +1,3 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link
-  href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&display=swap"
-  rel="stylesheet"
->
 <div
   id="home-splash"
   class="home-splash"
@@ -14,29 +8,32 @@
   <canvas class="home-splash__canvas" aria-hidden="true"></canvas>
   <script>
     (function () {
-      var root = document.getElementById("home-splash");
+      var root = document.getElementById('home-splash');
       if (!root) return;
-      var c = root.querySelector(".home-splash__canvas");
+      var c = root.querySelector('.home-splash__canvas');
       if (!c || !c.getContext) return;
       var w = window.innerWidth;
       var h = window.innerHeight;
       var d = Math.min(window.devicePixelRatio || 1, 2);
       c.width = Math.floor(w * d);
       c.height = Math.floor(h * d);
-      c.style.width = w + "px";
-      c.style.height = h + "px";
-      var ctx = c.getContext("2d");
+      c.style.width = w + 'px';
+      c.style.height = h + 'px';
+      var ctx = c.getContext('2d');
       if (!ctx) return;
       ctx.setTransform(d, 0, 0, d, 0, 0);
-      ctx.fillStyle = "#050a14";
+      ctx.fillStyle = '#0f1b15';
       ctx.fillRect(0, 0, w, h);
     })();
   </script>
   <div class="home-splash__veil" aria-hidden="true"></div>
   <div class="home-splash__content">
-    <h1 class="home-splash__name">Kaisen Yang</h1>
+    <h1 class="home-splash__name" aria-label="Kaisen Yang">
+      <span class="home-splash__typewriter" aria-hidden="true">Kaisen Yang</span>
+    </h1>
     <p class="home-splash__tagline">
-      I don&rsquo;t think AI has much theory&mdash;if it does, it&rsquo;s probably information theory. Every mature structure is a minimum cut on the flow of information.
+      I don&rsquo;t think AI has much theory&mdash;if it does, it&rsquo;s probably information theory. Every mature structure is a minimum cut on the
+      flow of information.
     </p>
     <span class="home-splash__hint">Click to enter</span>
   </div>

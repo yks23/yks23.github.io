@@ -1,66 +1,111 @@
-// Full-viewport decorative “holes” (feTurbulence + displacement) — homepage only
+// Soft homepage forest atmosphere behind the main content.
 
-.home-turb-holes {
+.home-forest-decor {
   position: fixed;
   inset: 0;
   z-index: 0;
   pointer-events: none;
   overflow: hidden;
+  background: linear-gradient(115deg, rgba(43, 82, 61, 0.035), rgba(255, 255, 255, 0) 42%),
+    linear-gradient(180deg, rgba(232, 238, 230, 0.12), rgba(255, 255, 255, 0) 30%);
 }
 
-// Keep main column above the decorative layer (fixed z-index: 0)
+// Keep main column above the decorative layer.
 body.home-turb-decor > .container[role="main"] {
   position: relative;
   z-index: 2;
 }
 
-.home-turb-holes__svg {
-  display: block;
-  width: 100%;
-  height: 100%;
-  color: var(--global-theme-color);
-  opacity: 0.38;
-  will-change: transform;
+.home-forest-decor__trunks {
+  position: absolute;
+  inset: -8% -10% 0;
+  opacity: 0.12;
+  background-image: linear-gradient(92deg, transparent 0 7%, rgba(54, 88, 67, 0.13) 7.4% 8.1%, transparent 8.5% 100%),
+    linear-gradient(87deg, transparent 0 19%, rgba(54, 82, 64, 0.09) 19.3% 20%, transparent 20.4% 100%),
+    linear-gradient(91deg, transparent 0 38%, rgba(71, 101, 80, 0.09) 38.2% 39%, transparent 39.4% 100%),
+    linear-gradient(88deg, transparent 0 63%, rgba(48, 77, 60, 0.08) 63.4% 64.1%, transparent 64.5% 100%),
+    linear-gradient(93deg, transparent 0 82%, rgba(66, 94, 72, 0.08) 82.2% 83%, transparent 83.5% 100%);
+  background-size:
+    460px 100%,
+    620px 100%,
+    740px 100%,
+    520px 100%,
+    680px 100%;
+  filter: blur(0.2px);
+  animation: home-forest-breathe 38s ease-in-out infinite;
 }
 
-html[data-theme="dark"] .home-turb-holes__svg {
-  opacity: 0.42;
+.home-forest-decor__mist {
+  position: absolute;
+  width: 56vw;
+  height: 46vh;
+  border-radius: 999px;
+  filter: blur(56px);
+  opacity: 0.1;
+  background: rgba(127, 151, 121, 0.18);
+  animation: home-forest-drift 46s ease-in-out infinite;
+}
+
+.home-forest-decor__mist--one {
+  left: -18vw;
+  top: 12vh;
+}
+
+.home-forest-decor__mist--two {
+  right: -24vw;
+  bottom: 6vh;
+  animation-duration: 42s;
+  animation-delay: -13s;
+  background: rgba(139, 161, 132, 0.16);
+}
+
+html[data-theme="dark"] .home-forest-decor {
+  background: linear-gradient(115deg, rgba(54, 93, 68, 0.075), rgba(0, 0, 0, 0) 44%),
+    linear-gradient(180deg, rgba(92, 114, 86, 0.055), rgba(0, 0, 0, 0) 32%);
+}
+
+html[data-theme="dark"] .home-forest-decor__trunks {
+  opacity: 0.16;
   mix-blend-mode: screen;
 }
 
-html:not([data-theme="dark"]) .home-turb-holes__svg {
-  mix-blend-mode: multiply;
-  opacity: 0.32;
+html[data-theme="dark"] .home-forest-decor__mist {
+  opacity: 0.08;
+}
+
+@keyframes home-forest-drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(3vw, -2vh, 0) scale(1.04);
+  }
+}
+
+@keyframes home-forest-breathe {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0.8vw, 0, 0);
+  }
 }
 
 @media (max-width: 991.98px) {
-  .home-turb-holes__svg {
-    opacity: 0.28;
+  .home-forest-decor__trunks {
+    opacity: 0.1;
   }
 
-  html[data-theme="dark"] .home-turb-holes__svg {
-    opacity: 0.32;
-  }
-
-  .home-turb-holes__hole--7,
-  .home-turb-holes__hole--8 {
-    display: none;
-  }
-}
-
-@media (max-width: 575.98px) {
-  .home-turb-holes__hole--5,
-  .home-turb-holes__hole--6 {
-    display: none;
-  }
-
-  .home-turb-holes__svg {
-    opacity: 0.22;
+  .home-forest-decor__mist {
+    opacity: 0.08;
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .home-turb-holes {
-    display: none;
+  .home-forest-decor__mist,
+  .home-forest-decor__trunks {
+    animation: none;
   }
 }

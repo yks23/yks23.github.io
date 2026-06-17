@@ -29,7 +29,6 @@ latest_posts:
 
 dynamics:
   enabled: true
-
 ---
 
 ## 🧑‍🎓 Biography
@@ -56,7 +55,7 @@ I am broadly fascinated by **Generative Models** — how we train them, structur
   </section>
 </div>
 
-I care less about chasing a single architecture, and more about the question: ⚡ *what is the smallest set of inductive biases (paradigm + architecture) that, given the right data, gets us a robust generative model?*
+I care less about chasing a single architecture, and more about the question: ⚡ _what is the smallest set of inductive biases (paradigm + architecture) that, given the right data, gets us a robust generative model?_
 
 ---
 
@@ -67,6 +66,7 @@ I care less about chasing a single architecture, and more about the question: �
     <span style="min-width:5.2rem; font-family:var(--global-font-mono, monospace); font-size:0.82rem; color:var(--global-theme-color); font-weight:600;">Now &middot;</span>
     <div>
       <strong><a href="https://c3i.ee.tsinghua.edu.cn/">Tsinghua C3I Lab</a></strong> — Center for Collaborative &amp; Conversational Intelligence, Tsinghua University.
+      I am advised by <a href="https://www.stingning.cn/">Ning Ding</a> and Prof. <a href="https://web.ee.tsinghua.edu.cn/zhoubowen/en/index.htm">Bowen Zhou</a>.
     </div>
   </div>
   <div class="d-flex align-items-baseline" style="gap:0.6rem;">
@@ -81,5 +81,5 @@ I care less about chasing a single architecture, and more about the question: �
 
 ## 🏢 Service &amp; Activities
 
-* **Vice Chairman**, Students&rsquo; Association of Science and Technology, Department of CST, Tsinghua University.
-* **Member**, 19th Spark Program (星火计划).
+- **Vice Chairman**, Students&rsquo; Association of Science and Technology, Department of CST, Tsinghua University.
+- **Member**, 19th Spark Program (星火计划).
