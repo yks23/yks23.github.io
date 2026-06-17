@@ -33,7 +33,7 @@ dynamics:
 
 ## 🧑‍🎓 Biography
 
-I am a third-year undergraduate at the **Department of Computer Science and Technology**, **Tsinghua University** 🚢, with a GPA of $\text{3.93/4.0}$, ranking $\text{16th}$ out of $\text{173}$ students. 📊
+I am a third-year undergraduate at the **Department of Computer Science and Technology**, **Tsinghua University** 🚢, with a GPA of $\text{3.9/4.0}$, ranking $\text{9th}$ out of $\text{171}$ students. 📊
 
 I am broadly fascinated by **Generative Models** — how we train them, structure them, and stress-test them. Concretely, my current work spans three layers:
 
@@ -81,5 +81,6 @@ I care less about chasing a single architecture, and more about the question: �
 
 ## 🏢 Service &amp; Activities
 
-- **Vice Chairman**, Students&rsquo; Association of Science and Technology, Department of CST, Tsinghua University.
-- **Member**, 19th Spark Program (星火计划).
+- **Chairman**, Students&rsquo; Association of Science and Technology, Department of CST, Tsinghua University.
+- **Council Member**, 19th Spark Program (星火计划), Tsinghua University.
+- **Former Class President**, Class 31, Department of CST, Tsinghua University.
