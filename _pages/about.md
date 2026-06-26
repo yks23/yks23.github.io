@@ -31,9 +31,9 @@ dynamics:
   enabled: true
 ---
 
-## 🧑‍🎓 Biography
+## Biography
 
-I am a third-year undergraduate at the **Department of Computer Science and Technology**, **Tsinghua University** 🚢, with a GPA of $\text{3.9/4.0}$, ranking $\text{9th}$ out of $\text{171}$ students. 📊
+I am a third-year undergraduate at the **Department of Computer Science and Technology**, **Tsinghua University**, with a GPA of $\text{3.9/4.0}$, ranking $\text{9th}$ out of $\text{171}$ students.
 
 I am broadly fascinated by **Generative Models** — how we train them, structure them, and stress-test them. Concretely, my current work spans three layers:
 
@@ -55,11 +55,11 @@ I am broadly fascinated by **Generative Models** — how we train them, structur
   </section>
 </div>
 
-I care less about chasing a single architecture, and more about the question: ⚡ _what is the smallest set of inductive biases (paradigm + architecture) that, given the right data, gets us a robust generative model?_
+I care less about chasing a single architecture, and more about the question: _what is the smallest set of inductive biases (paradigm + architecture) that, given the right data, gets us a robust generative model?_
 
 ---
 
-## 🔬 Research Affiliations
+## Research Affiliations
 
 <div class="d-flex flex-column" style="gap:0.65rem;">
   <div class="d-flex align-items-baseline" style="gap:0.6rem;">
@@ -79,7 +79,7 @@ I care less about chasing a single architecture, and more about the question: �
 
 ---
 
-## 🏢 Service &amp; Activities
+## Service &amp; Activities
 
 - **Chairman**, Students&rsquo; Association of Science and Technology, Department of CST, Tsinghua University.
 - **Council Member**, 19th Spark Program (星火计划), Tsinghua University.
