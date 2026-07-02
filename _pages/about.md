@@ -70,6 +70,18 @@ I care less about chasing a single architecture, and more about the question: _w
     </div>
   </div>
   <div class="d-flex align-items-baseline" style="gap:0.6rem;">
+    <span style="min-width:5.2rem; font-family:var(--global-font-mono, monospace); font-size:0.82rem; color:var(--global-theme-color); font-weight:600;">2026.05 &ndash;</span>
+    <div>
+      <strong>Nature Will</strong> — Algorithm Intern.
+    </div>
+  </div>
+  <div class="d-flex align-items-baseline" style="gap:0.6rem;">
+    <span style="min-width:5.2rem; font-family:var(--global-font-mono, monospace); font-size:0.82rem; color:var(--global-theme-color); font-weight:600;">2025.12 &ndash;</span>
+    <div>
+      <strong><a href="https://lab.einsia.ai/">Einsia.AI</a></strong> — Lab Leader.
+    </div>
+  </div>
+  <div class="d-flex align-items-baseline" style="gap:0.6rem;">
     <span style="min-width:5.2rem; font-family:var(--global-font-mono, monospace); font-size:0.82rem; opacity:0.7; font-weight:600;">Past &middot;</span>
     <div>
       <strong>Lamb Group</strong> — student researcher with Prof. <a href="https://sites.google.com/view/alexmlamb">Alex Lamb</a>, on masked diffusion and structured reasoning.
