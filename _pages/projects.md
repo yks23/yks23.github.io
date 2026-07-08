@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Selected projects from Einsia.AI research.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [papers, benchmarks]
 horizontal: false
 ---
 
@@ -63,3 +63,8 @@ horizontal: false
   {% endif %}
 {% endif %}
 </div>
+
+## Media Coverage
+
+- BrowserBC: [机器之心](https://mp.weixin.qq.com/s/dMAPeqDszlY0eDopwPAu0w)
+- Frontier-Engineering: [机器之心](https://mp.weixin.qq.com/s/4OAjSsihL0T1T9mfXmszDQ)

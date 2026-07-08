@@ -148,6 +148,10 @@
       {% endif %}
     </div>
 
+    {% if entry.role %}
+      <div class="pub-role">{{ entry.role }}</div>
+    {% endif %}
+
     <!-- Journal/Book title and date -->
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
