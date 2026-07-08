@@ -37,6 +37,18 @@
     >
       I don&rsquo;t think AI has much theory&mdash;if it does, it&rsquo;s probably information theory. Every mature structure is a minimum cut on the flow of information.
     </p>
+    <script>
+      (function () {
+        var tagline = document.currentScript.previousElementSibling;
+        if (!tagline) return;
+        try {
+          var taglines = JSON.parse(tagline.getAttribute('data-taglines') || '[]');
+          if (taglines.length) {
+            tagline.textContent = taglines[Math.floor(Math.random() * taglines.length)];
+          }
+        } catch (e) {}
+      })();
+    </script>
     <span class="home-splash__hint">Click to enter</span>
   </div>
 </div>
