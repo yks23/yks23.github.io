@@ -206,6 +206,18 @@
     };
   }
 
+  function randomizeTagline(root) {
+    const tagline = root.querySelector(".home-splash__tagline");
+    if (!tagline) return;
+
+    try {
+      const taglines = JSON.parse(tagline.getAttribute("data-taglines") || "[]");
+      if (taglines.length) {
+        tagline.textContent = taglines[Math.floor(Math.random() * taglines.length)];
+      }
+    } catch (e) {}
+  }
+
   function dismiss(root) {
     clearSplashPending();
     root.classList.add("home-splash--hide");
@@ -225,6 +237,8 @@
       root.remove();
       return;
     }
+
+    randomizeTagline(root);
 
     const canvas = root.querySelector(".home-splash__canvas");
     const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
