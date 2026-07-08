@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/news/";
           },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "Selected projects from Einsia.AI research.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
         
           title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
@@ -87,7 +94,17 @@ ninja.data = [{
           section: "News",},{id: "news-awarded-the-sensetime-scholarship-2026",
           title: '🏆 Awarded the SenseTime Scholarship 2026.',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "projects-browserbc",
+          title: 'BrowserBC',
+          description: "BrowserBC distills successful human browser trajectories into reusable skills, helping web agents solve tasks with higher success rates and fewer interactions.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/01-browserbc/";
+            },},{id: "projects-frontier-engineering",
+          title: 'Frontier-Engineering',
+          description: "A benchmark of 47 real-world engineering optimization tasks for evaluating iterative AI agents under verifier-grounded feedback.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/02-frontier-engineering/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
