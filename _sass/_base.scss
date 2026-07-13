@@ -227,6 +227,63 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+.about-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(170px, 220px) minmax(0, 1fr);
+  align-items: start;
+  gap: 2rem;
+  margin-top: 0.25rem;
+}
+
+.about-profile-column {
+  float: none !important;
+  width: 100% !important;
+  margin: 0 !important;
+
+  figure {
+    margin: 0;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    border-radius: 10px !important;
+    object-fit: cover;
+  }
+
+  .more-info {
+    margin-top: 0.9rem;
+    padding-top: 0.9rem;
+    border-top: 1px solid var(--global-divider-color);
+    color: var(--global-text-color);
+    line-height: 1.45;
+
+    p {
+      display: block;
+      margin: 0.1rem 0;
+    }
+  }
+}
+
+.about-main-column {
+  min-width: 0;
+
+  h2:first-child {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .about-hero-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .about-profile-column {
+    max-width: 260px;
+  }
+}
+
 .post-description {
   margin-bottom: 2rem;
   font-size: 0.875rem;
@@ -289,6 +346,10 @@ ul.task-list input[type="checkbox"] {
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
+    font-family: var(--global-font);
+    font-size: 0.94rem;
+    font-weight: 560;
+    letter-spacing: -0.01em;
 
     &:hover {
       color: var(--global-hover-color);
@@ -578,9 +639,23 @@ footer.sticky-bottom {
 }
 
 .post-title {
+  font-family: var(--global-heading-font);
+  font-size: clamp(2.25rem, 4.6vw, 3.35rem);
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  line-height: 0.98;
+  margin-bottom: 0.55rem;
+
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   }
+}
+
+.post-header .desc {
+  font-family: var(--global-font);
+  font-size: 0.98rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
 }
 
 .post-list {

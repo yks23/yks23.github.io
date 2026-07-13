@@ -5,7 +5,7 @@ permalink: /
 subtitle: Undergraduate Researcher · Tsinghua University &nbsp;·&nbsp; <a href="mailto:yks23@mails.tsinghua.edu.cn">yks23@mails.tsinghua.edu.cn</a>
 
 profile:
-  align: right
+  align: left
   image: kaisen.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
@@ -33,29 +33,27 @@ dynamics:
 
 ## Biography
 
-I am a third-year undergraduate at the **Department of Computer Science and Technology**, **Tsinghua University**, with a GPA of $\text{3.9/4.0}$, ranking $\text{9th}$ out of $\text{171}$ students.
+I am a third-year undergraduate at the **Department of Computer Science and Technology**, **Tsinghua University**, with a GPA of $\text{3.9/4.0}$ and a rank of $\text{9/171}$.
 
-I am broadly fascinated by **Generative Models** — how we train them, structure them, and stress-test them. Concretely, my current work spans three layers:
+My research focuses on **Generative Models**, especially masked/discrete diffusion, efficient generation, sampler design, and evaluation.
 
 <div class="research-layers mt-3 mb-4" aria-label="Research layers">
   <section class="research-layer-card research-layer-card--paradigms">
     <div class="research-layer-card__meta">Layer 1 · Paradigms</div>
     <h3>Modeling Paradigms</h3>
-    <p>Masked and discrete diffusion, structured reasoning, and the boundary between autoregressive and non-autoregressive generation.</p>
+    <p>Masked diffusion, discrete diffusion, and structured reasoning.</p>
   </section>
   <section class="research-layer-card research-layer-card--systems">
     <div class="research-layer-card__meta">Layer 2 · Systems</div>
     <h3>Architectures &amp; Efficiency</h3>
-    <p>Diffusion-Transformer quantization, sampler design, and attention mechanisms for faster, more reliable generation.</p>
+    <p>Quantization, sampler design, and attention mechanisms.</p>
   </section>
   <section class="research-layer-card research-layer-card--evidence">
     <div class="research-layer-card__meta">Layer 3 · Evidence</div>
     <h3>Data &amp; Benchmark</h3>
-    <p>Datasets and benchmarks that expose what generative models can do, where they fail, and why the failure matters.</p>
+    <p>Datasets and benchmarks for model capability and failure analysis.</p>
   </section>
 </div>
-
-I care less about chasing a single architecture, and more about the question: _what is the smallest set of inductive biases (paradigm + architecture) that, given the right data, gets us a robust generative model?_
 
 ---
 
