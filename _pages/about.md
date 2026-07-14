@@ -8,9 +8,6 @@ profile:
   align: left
   image: kaisen.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>(+86) 150&nbsp;1900&nbsp;0811</p>
-    <p>Beijing, China</p>
 
 selected_papers:
   enabled: true # includes a list of papers marked as "selected={true}"
