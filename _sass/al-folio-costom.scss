@@ -40,17 +40,17 @@ a[abbr="CVPR"] {
 }
 
 .research-layer-card {
-  --layer-accent: #486454;
-  --layer-surface: rgba(244, 247, 241, 0.64);
+  --layer-accent: #1e1e1e;
+  --layer-surface: #ffffff;
   position: relative;
   display: flex;
   flex-direction: column;
   min-height: 10.2rem;
   padding: 1rem 1rem 1.05rem;
-  border: 1px solid rgba(88, 111, 96, 0.2);
-  border-radius: 8px;
-  background: linear-gradient(180deg, var(--layer-surface), rgba(255, 255, 255, 0)), var(--global-bg-color);
-  box-shadow: 0 8px 22px rgba(34, 54, 42, 0.035);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 3px;
+  background: var(--layer-surface);
+  box-shadow: none;
   overflow: hidden;
 }
 
@@ -59,7 +59,7 @@ a[abbr="CVPR"] {
   position: absolute;
   inset: 0 auto 0 0;
   width: 3px;
-  background: rgba(72, 100, 84, 0.58);
+  background: #1e1e1e;
 }
 
 .research-layer-card::after {
@@ -69,24 +69,19 @@ a[abbr="CVPR"] {
   top: -2.9rem;
   width: 6.2rem;
   height: 6.2rem;
-  border: 1px solid rgba(72, 100, 84, 0.34);
-  border-radius: 50%;
-  opacity: 0.1;
+  display: none;
 }
 
 .research-layer-card--paradigms {
-  --layer-accent: #3f5f4e;
-  --layer-surface: rgba(239, 245, 239, 0.66);
+  --layer-accent: #1e1e1e;
 }
 
 .research-layer-card--systems {
-  --layer-accent: #4f6f5d;
-  --layer-surface: rgba(241, 246, 241, 0.62);
+  --layer-accent: #1e1e1e;
 }
 
 .research-layer-card--evidence {
-  --layer-accent: #5e7767;
-  --layer-surface: rgba(243, 247, 242, 0.58);
+  --layer-accent: #1e1e1e;
 }
 
 .research-layer-card__meta {
@@ -118,18 +113,13 @@ a[abbr="CVPR"] {
 }
 
 html[data-theme="dark"] .research-layer-card {
-  --layer-surface: rgba(46, 68, 54, 0.22);
-  border-color: rgba(126, 151, 131, 0.16);
-  background: linear-gradient(180deg, var(--layer-surface), rgba(255, 255, 255, 0)), var(--global-bg-color);
-  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.18);
+  --layer-surface: #1b1b1b;
+  border-color: #373737;
+  background: var(--layer-surface);
 }
 
 html[data-theme="dark"] .research-layer-card::before {
-  background: rgba(143, 166, 146, 0.42);
-}
-
-html[data-theme="dark"] .research-layer-card::after {
-  border-color: rgba(143, 166, 146, 0.18);
+  background: #e7e7e7;
 }
 
 @media (max-width: 991.98px) {

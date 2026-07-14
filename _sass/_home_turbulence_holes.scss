@@ -6,8 +6,8 @@
   z-index: 0;
   pointer-events: none;
   overflow: hidden;
-  background: linear-gradient(115deg, rgba(43, 82, 61, 0.035), rgba(255, 255, 255, 0) 42%),
-    linear-gradient(180deg, rgba(232, 238, 230, 0.12), rgba(255, 255, 255, 0) 30%);
+  background: linear-gradient(115deg, rgba(0, 0, 0, 0.018), rgba(255, 255, 255, 0) 42%),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.025), rgba(255, 255, 255, 0) 30%);
 }
 
 // Keep main column above the decorative layer.
@@ -20,11 +20,11 @@ body.home-turb-decor > .container[role="main"] {
   position: absolute;
   inset: -8% -10% 0;
   opacity: 0.12;
-  background-image: linear-gradient(92deg, transparent 0 7%, rgba(54, 88, 67, 0.13) 7.4% 8.1%, transparent 8.5% 100%),
-    linear-gradient(87deg, transparent 0 19%, rgba(54, 82, 64, 0.09) 19.3% 20%, transparent 20.4% 100%),
-    linear-gradient(91deg, transparent 0 38%, rgba(71, 101, 80, 0.09) 38.2% 39%, transparent 39.4% 100%),
-    linear-gradient(88deg, transparent 0 63%, rgba(48, 77, 60, 0.08) 63.4% 64.1%, transparent 64.5% 100%),
-    linear-gradient(93deg, transparent 0 82%, rgba(66, 94, 72, 0.08) 82.2% 83%, transparent 83.5% 100%);
+  background-image: linear-gradient(92deg, transparent 0 7%, rgba(0, 0, 0, 0.07) 7.4% 8.1%, transparent 8.5% 100%),
+    linear-gradient(87deg, transparent 0 19%, rgba(0, 0, 0, 0.05) 19.3% 20%, transparent 20.4% 100%),
+    linear-gradient(91deg, transparent 0 38%, rgba(0, 0, 0, 0.05) 38.2% 39%, transparent 39.4% 100%),
+    linear-gradient(88deg, transparent 0 63%, rgba(0, 0, 0, 0.04) 63.4% 64.1%, transparent 64.5% 100%),
+    linear-gradient(93deg, transparent 0 82%, rgba(0, 0, 0, 0.04) 82.2% 83%, transparent 83.5% 100%);
   background-size:
     460px 100%,
     620px 100%,
@@ -42,7 +42,7 @@ body.home-turb-decor > .container[role="main"] {
   border-radius: 999px;
   filter: blur(56px);
   opacity: 0.1;
-  background: rgba(127, 151, 121, 0.18);
+  background: rgba(0, 0, 0, 0.08);
   animation: home-forest-drift 46s ease-in-out infinite;
 }
 
@@ -56,12 +56,12 @@ body.home-turb-decor > .container[role="main"] {
   bottom: 6vh;
   animation-duration: 42s;
   animation-delay: -13s;
-  background: rgba(139, 161, 132, 0.16);
+  background: rgba(0, 0, 0, 0.06);
 }
 
 html[data-theme="dark"] .home-forest-decor {
-  background: linear-gradient(115deg, rgba(54, 93, 68, 0.075), rgba(0, 0, 0, 0) 44%),
-    linear-gradient(180deg, rgba(92, 114, 86, 0.055), rgba(0, 0, 0, 0) 32%);
+  background: linear-gradient(115deg, rgba(255, 255, 255, 0.045), rgba(0, 0, 0, 0) 44%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(0, 0, 0, 0) 32%);
 }
 
 html[data-theme="dark"] .home-forest-decor__trunks {
