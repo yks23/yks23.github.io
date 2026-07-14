@@ -349,7 +349,7 @@ ul.task-list input[type="checkbox"] {
     font-family: var(--global-font);
     font-size: 0.94rem;
     font-weight: 560;
-    letter-spacing: -0.01em;
+    letter-spacing: 0;
 
     &:hover {
       color: var(--global-hover-color);
