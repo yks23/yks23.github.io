@@ -231,6 +231,11 @@ ul.task-list input[type="checkbox"] {
   margin-bottom: 1.5rem;
 }
 
+.about-post .post-title {
+  font-family: "Bodoni Moda", "Newsreader", Georgia, serif;
+  font-weight: 600;
+}
+
 .about-profile-floating {
   width: min(12rem, 48vw) !important;
   margin: 0 !important;
@@ -288,7 +293,7 @@ ul.task-list input[type="checkbox"] {
 
   .about-identity-rail .post-title {
     font-size: 2.45rem;
-    line-height: 0.95;
+    line-height: 0.9;
     margin-bottom: 0.7rem;
   }
 
