@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Undergraduate Researcher · Tsinghua University &nbsp;·&nbsp; <a href="mailto:yks23@mails.tsinghua.edu.cn">yks23@mails.tsinghua.edu.cn</a>
+subtitle: Undergrad in the CST Department of THU
 
 profile:
   align: left
