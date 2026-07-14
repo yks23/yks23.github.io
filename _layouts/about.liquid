@@ -41,11 +41,6 @@ layout: default
       <div class="clearfix">{{ content }}</div>
     {% endif %}
 
-    <!-- Dynamics -->
-    {% if page.dynamics and page.dynamics.enabled %}
-      {% include dynamics_preview.liquid %}
-    {% endif %}
-
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
