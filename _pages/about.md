@@ -36,18 +36,18 @@ My research interests span **Generative Models, Agents, and Physical AI**, with 
 
 <div class="research-layers mt-3 mb-4" aria-label="Research layers">
   <section class="research-layer-card research-layer-card--paradigms">
-    <div class="research-layer-card__meta">Question 1 · Decomposition</div>
-    <h3>Function Decomposition</h3>
+    <div class="research-layer-card__meta">Layer 1 · Paradigms</div>
+    <h3>Modeling Paradigms</h3>
     <p>How can we decompose a complex target into functions that are tractable to model?</p>
   </section>
   <section class="research-layer-card research-layer-card--systems">
-    <div class="research-layer-card__meta">Question 2 · Modeling</div>
-    <h3>Efficient Modeling</h3>
+    <div class="research-layer-card__meta">Layer 2 · Systems</div>
+    <h3>Architectures &amp; Efficiency</h3>
     <p>How can we model these functions efficiently and precisely?</p>
   </section>
   <section class="research-layer-card research-layer-card--evidence">
-    <div class="research-layer-card__meta">Question 3 · Learning</div>
-    <h3>Learning &amp; Evaluation</h3>
+    <div class="research-layer-card__meta">Layer 3 · Evidence</div>
+    <h3>Data &amp; Benchmark</h3>
     <p>How do we learn these functions and evaluate them rigorously?</p>
   </section>
 </div>
