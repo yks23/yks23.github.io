@@ -32,7 +32,7 @@ dynamics:
 
 I am a third-year undergraduate at the **Department of Computer Science and Technology**, **Tsinghua University**, with a GPA of $\text{3.9/4.0}$ and a rank of $\text{9/171}$.
 
-My research interests span **Generative Models, Agents, and Physical AI**.
+My research interests span **Generative Modeling, Agents, and Physical AI**.
 
 <div class="research-layers mt-3 mb-4" aria-label="Research layers">
   <section class="research-layer-card research-layer-card--paradigms">
