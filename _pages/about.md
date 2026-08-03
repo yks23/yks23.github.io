@@ -30,7 +30,7 @@ dynamics:
 
 ## Biography
 
-I am a third-year undergraduate at the **Department of Computer Science and Technology**, **Tsinghua University**, with a GPA of $\text{3.9/4.0}$ and a rank of $\text{9/171}$.
+I am a third-year undergraduate at the **Department of Computer Science and Technology**, **Tsinghua University**, with a GPA of $\text{3.9/4.0}$ and a rank of $\text{8/194}$.
 
 My research interests span **Generative Modeling, Agents, and Physical AI**.
 
