@@ -107,6 +107,11 @@ ninja.data = [{
           description: "A benchmark of 47 real-world engineering optimization tasks for evaluating iterative AI agents under verifier-grounded feedback.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/02-frontier-engineering/";
+            },},{id: "projects-ai4ai-bench",
+          title: 'AI4AI-Bench',
+          description: "A benchmark for evaluating LLM agents on algorithmic design for recursive self-improvement.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/03-ai4ai-bench/";
             },},{
         id: 'social-email',
         title: 'email',
