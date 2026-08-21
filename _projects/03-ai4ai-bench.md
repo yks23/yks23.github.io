@@ -2,6 +2,7 @@
 layout: page
 title: AI4AI-Bench
 description: A benchmark for evaluating LLM agents on algorithmic design for recursive self-improvement.
+img: assets/img/publication_preview/ai4ai-bench.png
 importance: 3
 category: benchmarks
 redirect: https://lab.einsia.ai/ai4ai/
