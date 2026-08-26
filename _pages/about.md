@@ -73,7 +73,7 @@ My research interests span **Generative Modeling, Agents, and Physical AI**.
   <div class="d-flex align-items-baseline" style="gap:0.6rem;">
     <span style="min-width:5.2rem; font-family:var(--global-font-mono, monospace); font-size:0.82rem; color:var(--global-theme-color); font-weight:600;">2025.12 &ndash;</span>
     <div>
-      <strong><a href="https://lab.einsia.ai/">Einsia.AI</a></strong> — Lab Leader.
+      <strong><a href="https://lab.einsia.ai/">Einsia.AI</a></strong>.
     </div>
   </div>
   <div class="d-flex align-items-baseline" style="gap:0.6rem;">
