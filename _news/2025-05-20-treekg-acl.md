@@ -5,5 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 Our paper, **Tree-KG**, has been accepted to **ACL 2025**!
-
+Our paper, **Tree-KG**, has been accepted to **ACL 2025**!

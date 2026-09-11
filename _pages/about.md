@@ -16,7 +16,7 @@ social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  scrollable: false
   limit: 6 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
@@ -30,7 +30,7 @@ dynamics:
 
 ## Biography
 
-I am a third-year undergraduate at the **Department of Computer Science and Technology**, **Tsinghua University**, with a GPA of $\text{3.9/4.0}$ and a rank of $\text{8/194}$.
+I am an undergraduate at the **Department of Computer Science and Technology**, **Tsinghua University**. GPA: **3.9/4.0** · Rank: **8/194**.
 
 My research interests span **Generative Modeling, Agents, and Physical AI**.
 

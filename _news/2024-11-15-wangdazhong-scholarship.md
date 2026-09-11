@@ -5,5 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🏆 Awarded the **WangDazhong Scholarship (20000 RMB)**.
-
+Awarded the **WangDazhong Scholarship (20000 RMB)**.

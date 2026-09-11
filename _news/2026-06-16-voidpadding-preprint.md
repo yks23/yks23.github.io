@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-✍️ Our paper, **VoidPadding**, is released on **arXiv**.
+Our paper, **[VoidPadding](https://arxiv.org/abs/2606.17999)**, is released on arXiv. Accepted to **COLM 2026 Workshop on Efficient Reasoning**.

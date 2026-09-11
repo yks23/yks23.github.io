@@ -5,5 +5,4 @@ inline: true
 related_posts: false
 ---
 
-✍️ 2 preprints released on **arXiv**.
-
+2 preprints released on **arXiv**.

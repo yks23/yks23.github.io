@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🏆 Awarded the **SenseTime Scholarship 2026**.
+Awarded the **SenseTime Scholarship 2026**.

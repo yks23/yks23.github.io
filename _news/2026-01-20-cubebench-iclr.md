@@ -5,5 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 Our paper, **CubeBench**, has been accepted to **ICLR 2026**!
-
+Our paper, **CubeBench**, has been accepted to **ICLR 2026**!
