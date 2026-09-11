@@ -56,33 +56,25 @@ My research interests span **Generative Modeling, Agents, and Physical AI**.
 
 ## Research Affiliations
 
-<div class="d-flex flex-column" style="gap:0.65rem;">
-  <div class="d-flex align-items-baseline" style="gap:0.6rem;">
-    <span style="min-width:5.2rem; font-family:var(--global-font-mono, monospace); font-size:0.82rem; color:var(--global-theme-color); font-weight:600;">Now &middot;</span>
-    <div>
-      <strong><a href="https://c3i.ee.tsinghua.edu.cn/">Tsinghua C3I Lab</a></strong> — Center for Collaborative &amp; Conversational Intelligence, Tsinghua University.
-      I am advised by <a href="https://www.stingning.cn/">Ning Ding</a> and Prof. <a href="https://web.ee.tsinghua.edu.cn/zhoubowen/en/index.htm">Bowen Zhou</a>.
-    </div>
-  </div>
-  <div class="d-flex align-items-baseline" style="gap:0.6rem;">
-    <span style="min-width:5.2rem; font-family:var(--global-font-mono, monospace); font-size:0.82rem; color:var(--global-theme-color); font-weight:600;">2026.05 &ndash;</span>
-    <div>
-      <strong>Nature Will</strong> — Algorithm Intern.
-    </div>
-  </div>
-  <div class="d-flex align-items-baseline" style="gap:0.6rem;">
-    <span style="min-width:5.2rem; font-family:var(--global-font-mono, monospace); font-size:0.82rem; color:var(--global-theme-color); font-weight:600;">2025.12 &ndash;</span>
-    <div>
-      <strong><a href="https://lab.einsia.ai/">Einsia.AI</a></strong>.
-    </div>
-  </div>
-  <div class="d-flex align-items-baseline" style="gap:0.6rem;">
-    <span style="min-width:5.2rem; font-family:var(--global-font-mono, monospace); font-size:0.82rem; opacity:0.7; font-weight:600;">Past &middot;</span>
-    <div>
-      <strong>Lamb Group</strong> — student researcher with Prof. <a href="https://sites.google.com/view/alexmlamb">Alex Lamb</a>, on masked diffusion and structured reasoning.
-    </div>
-  </div>
-</div>
+<ul class="affiliations">
+  <li>
+    <div><h3><a href="https://c3i.ee.tsinghua.edu.cn/">C3I Lab, Tsinghua University</a></h3>
+    <p>Advised by <a href="https://www.stingning.cn/">Ning Ding</a> and <a href="https://web.ee.tsinghua.edu.cn/zhoubowen/en/index.htm">Bowen Zhou</a>.</p></div>
+    <span class="affiliation-date">Current</span>
+  </li>
+  <li>
+    <div><h3>Nature Will</h3><p>Algorithm Intern</p></div>
+    <span class="affiliation-date">May 2026 &ndash; present</span>
+  </li>
+  <li>
+    <div><h3><a href="https://lab.einsia.ai/">Einsia.AI</a></h3></div>
+    <span class="affiliation-date">Dec 2025 &ndash; present</span>
+  </li>
+  <li>
+    <div><h3>Lamb Group</h3><p>Student researcher with <a href="https://sites.google.com/view/alexmlamb">Alex Lamb</a>.</p></div>
+    <span class="affiliation-date">Previous</span>
+  </li>
+</ul>
 
 ---
 

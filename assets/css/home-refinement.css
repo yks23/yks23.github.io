@@ -31,6 +31,15 @@
 .about-post .publications .badge a { color: inherit !important; }
 .about-post .publications .links .btn { font-size: 0.7rem; border-radius: 3px; }
 .about-post .social { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--global-divider-color); }
+.about-post .affiliations { list-style: none; padding: 0; margin: 0; }
+.about-post .affiliations li { display: flex; justify-content: space-between; align-items: baseline; gap: 1.5rem; padding: 0.85rem 0; }
+.about-post .affiliations li + li { border-top: 1px solid var(--global-divider-color); }
+.about-post .affiliations h3 { margin: 0; font-family: inherit; font-size: 0.95rem; line-height: 1.5; font-weight: 600; }
+.about-post .affiliations p { margin: 0.25rem 0 0; font-size: 0.85rem; line-height: 1.6; }
+.about-post .affiliation-date { flex-shrink: 0; font-size: 0.75rem; opacity: 0.6; }
+@media (max-width: 575.98px) {
+  .about-post .affiliations li { flex-direction: column; gap: 0.3rem; }
+}
 @media (min-width: 992px) {
   .container:has(.about-post) { max-width: 1120px; }
   .about-post .about-identity-rail { position: fixed; top: 7rem; left: max(2rem, calc(50% - 545px)); width: 185px !important; }
