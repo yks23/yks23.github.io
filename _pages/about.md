@@ -60,10 +60,9 @@ My research interests span **Generative Modeling, Agents, and Physical AI**.
   <li>
     <div><h3><a href="https://c3i.ee.tsinghua.edu.cn/">C3I Lab, Tsinghua University</a></h3>
     <p>Advised by <a href="https://www.stingning.cn/">Ning Ding</a> and <a href="https://web.ee.tsinghua.edu.cn/zhoubowen/en/index.htm">Bowen Zhou</a>.</p></div>
-    <span class="affiliation-date">Current</span>
   </li>
   <li>
-    <div><h3>Nature Will</h3><p>Algorithm Intern</p></div>
+    <div><h3>Nature Will</h3></div>
     <span class="affiliation-date">May 2026 &ndash; present</span>
   </li>
   <li>
@@ -72,7 +71,6 @@ My research interests span **Generative Modeling, Agents, and Physical AI**.
   </li>
   <li>
     <div><h3>Lamb Group</h3><p>Student researcher with <a href="https://sites.google.com/view/alexmlamb">Alex Lamb</a>.</p></div>
-    <span class="affiliation-date">Previous</span>
   </li>
 </ul>
 
