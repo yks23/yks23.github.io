@@ -66,7 +66,7 @@ My research interests span **Generative Modeling, Agents, and Physical AI**.
     <span class="affiliation-date">May 2026 &ndash; present</span>
   </li>
   <li>
-    <div><h3><a href="https://lab.einsia.ai/">Einsia.AI</a></h3></div>
+    <div><h3><a href="https://lab.einsia.ai/">Einsia.AI</a></h3><p>Lab Leader</p></div>
     <span class="affiliation-date">Dec 2025 &ndash; present</span>
   </li>
   <li>
