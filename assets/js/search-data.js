@@ -130,6 +130,11 @@ ninja.data = [{
           description: "A benchmark for evaluating LLM agents on algorithmic design for recursive self-improvement.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/03-ai4ai-bench/";
+            },},{id: "projects-diabagent",
+          title: 'DiabAgent',
+          description: "Toward Agentic Physiological Control.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/04-diabagent/";
             },},{
         id: 'social-email',
         title: 'email',
