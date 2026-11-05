@@ -48,7 +48,10 @@
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="col-sm-10">
     <!-- Title -->
-    <div class="title">{{ entry.title }}</div>
+    <div class="title">{% if entry.contribution_role %}<mark class="publication-highlight">{{ entry.title }}</mark>{% else %}{{ entry.title }}{% endif %}</div>
+    {% if entry.contribution_role %}
+      <div class="publication-contribution">Kaisen Yang &middot; {{ entry.contribution_role }}</div>
+    {% endif %}
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
