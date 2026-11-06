@@ -1,6 +1,6 @@
 ---
 ---
-<div class="row">
+<div class="row{% if entry.contribution_role %} publication-highlight{% endif %}">
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
       {%- if entry.abbr -%}
@@ -48,10 +48,7 @@
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="col-sm-10">
     <!-- Title -->
-    <div class="title">{% if entry.contribution_role %}<mark class="publication-highlight">{{ entry.title }}</mark>{% else %}{{ entry.title }}{% endif %}</div>
-    {% if entry.contribution_role %}
-      <div class="publication-contribution">Kaisen Yang &middot; {{ entry.contribution_role }}</div>
-    {% endif %}
+    <div class="title">{{ entry.title }}</div>
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
