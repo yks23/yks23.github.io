@@ -1,6 +1,6 @@
 <div class="col">
-  <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
     <div class="card h-100 hoverable">
+      <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}" aria-label="{{ project.title | escape }}">
       {% if project.img %}
         {%
           include figure.liquid
@@ -11,8 +11,9 @@
           class="card-img-top"
         %}
       {% endif %}
+      </a>
       <div class="card-body">
-        <h2 class="card-title">{{ project.title }}</h2>
+        <h2 class="card-title"><a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">{{ project.title }}</a></h2>
         <p class="card-text">{{ project.description }}</p>
         <div class="row ml-1 mr-1 p-0">
           {% if project.github %}
@@ -31,5 +32,4 @@
         </div>
       </div>
     </div>
-  </a>
 </div>

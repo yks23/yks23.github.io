@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="post about-post">
-  <link rel="stylesheet" href="{{ '/assets/css/home-refinement.css' | relative_url }}?v=20260911">
+  <link rel="stylesheet" href="{{ '/assets/css/home-refinement.css' | relative_url | bust_file_cache }}">
   {% if page.profile %}
     <aside class="about-identity-rail">
   {% endif %}
@@ -41,18 +41,19 @@ layout: default
   {% endif %}
 
   <article class="{% if page.profile %}about-content{% endif %}">
+    {% assign home_sections = content | split: '<!-- affiliations-start -->' %}
     {% if page.profile %}
       <div class="about-main-column">
-        {{ content }}
+        {{ home_sections | first }}
       </div>
     {% else %}
-      <div class="clearfix">{{ content }}</div>
+      <div class="clearfix">{{ home_sections | first }}</div>
     {% endif %}
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">Latest News</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
@@ -71,6 +72,11 @@ layout: default
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
       </h2>
       {% include selected_papers.liquid limit=page.selected_papers.limit %}
+      <p class="section-more"><a href="{{ '/publications/' | relative_url }}">All publications &rarr;</a></p>
+    {% endif %}
+
+    {% if home_sections.size > 1 %}
+      <div class="about-details">{{ home_sections | last }}</div>
     {% endif %}
 
     <!-- Social -->

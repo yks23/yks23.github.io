@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: Selected projects from Einsia.AI research.
+description: Research projects in agents, physical intelligence, and efficient generation.
 nav: true
 nav_order: 3
 display_categories: [papers, benchmarks]
@@ -10,6 +10,7 @@ horizontal: false
 ---
 
 <!-- pages/projects.md -->
+<link rel="stylesheet" href="{{ '/assets/css/projects-refinement.css' | relative_url | bust_file_cache }}">
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->

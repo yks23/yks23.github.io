@@ -1,5 +1,6 @@
 ---
 layout: post
+published: false
 date: 2025-09-05
 inline: true
 related_posts: false

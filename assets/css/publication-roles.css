@@ -1,3 +1,15 @@
 .publications .publication-highlight {
-  border-left: 3px solid #f5d900;
+  border-left: 3px solid #655b3d;
+}
+
+.publications .publication-tier-lead {
+  border-left-color: #f2c500;
+}
+
+.publications .publication-tier-core {
+  border-left-color: #bd961b;
+}
+
+.publications .publication-tier-corresponding {
+  border-left-color: #90752d;
 }

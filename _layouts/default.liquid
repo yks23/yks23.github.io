@@ -2,6 +2,9 @@
 {% if page.permalink == '/' or page.url == '/' or page.url == '/index.html' %}
   {% assign is_home_splash = true %}
 {% endif %}
+{% if page.home_splash == false %}
+  {% assign is_home_splash = false %}
+{% endif %}
 <!doctype html>
 <html lang="{{ site.lang }}"{% if is_home_splash %} class="home-splash-pending"{% endif %}>
   <!-- Head -->

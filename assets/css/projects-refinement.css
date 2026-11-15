@@ -1,0 +1,9 @@
+.projects .row { row-gap: 1.5rem; }
+.projects .card { border-radius: 4px; box-shadow: none; overflow: hidden; }
+.projects .card-img-top { width: 100%; height: 160px; object-fit: contain; padding: 12px; background: #fff; }
+.projects .card-body { padding: 1rem; }
+.projects .card-title { font-family: inherit; font-size: 1.1rem; line-height: 1.4; margin-bottom: 0.6rem; }
+.projects .card-text { font-size: 0.9rem; line-height: 1.6; }
+.projects .category { font-size: 1.35rem; text-transform: capitalize; margin: 2rem 0 1rem; }
+.projects h2.category { color: var(--global-text-color); text-align: left; }
+body:has(.projects) footer.fixed-bottom { position: static; margin-top: 3rem; }

@@ -1,6 +1,22 @@
 ---
 ---
-<div class="row{% if entry.contribution_role %} publication-highlight{% endif %}">
+{% assign publication_tier = 'other' %}
+{% if entry.contribution_role == 'Corresponding author' %}
+  {% assign publication_tier = 'corresponding' %}
+{% endif %}
+{% if entry.contribution_role == 'Core contributor' %}
+  {% assign publication_tier = 'core' %}
+{% endif %}
+{% assign first_author = entry.author_array | first %}
+{% assign first_author_last = first_author.last | regex_replace: '[*∗†‡§¶‖&^]', '' %}
+{% assign self_is_first = false %}
+{% if site.scholar.last_name contains first_author_last and site.scholar.first_name contains first_author.first %}
+  {% assign self_is_first = true %}
+{% endif %}
+{% if entry.project_lead == 'true' or entry.contribution_role == 'Co-first author' or self_is_first %}
+  {% assign publication_tier = 'lead' %}
+{% endif %}
+<div class="row publication-highlight publication-tier-{{ publication_tier }}">
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
       {%- if entry.abbr -%}
