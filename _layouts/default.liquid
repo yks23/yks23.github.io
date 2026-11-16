@@ -9,6 +9,7 @@
 <html lang="{{ site.lang }}"{% if is_home_splash %} class="home-splash-pending"{% endif %}>
   <!-- Head -->
   <head>
+    {% include homepage_migration.liquid %}
     {% if is_home_splash %}
       <style id="home-splash-critical">
         html.home-splash-pending,

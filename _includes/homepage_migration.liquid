@@ -1,0 +1,11 @@
+{% if site.github_homepage_redirect and page.url != '/404.html' %}
+  <script>
+    if (window.location.hostname === 'yks23.github.io' &&
+        !window.location.pathname.startsWith('/info-gain-sampler/')) {
+      window.location.replace('https://kaiseny.net' + window.location.pathname + window.location.search + window.location.hash);
+    }
+  </script>
+  <noscript>
+    <meta http-equiv="refresh" content="0; url=https://kaiseny.net{{ page.url }}">
+  </noscript>
+{% endif %}
