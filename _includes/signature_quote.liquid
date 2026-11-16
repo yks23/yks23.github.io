@@ -1,0 +1,15 @@
+<div class="signature-quote">
+  <p id="signature-text"></p>
+  <script>
+    (() => {
+      const quotes = [
+        'Every mature structure is a minimum cut on the flow of information.',
+        'Generation is compression with a future tense: the model remembers enough structure to keep imagining.',
+        'To study AI is to study ourselves.',
+        'Chasing the right benchmark is the most important thing in AI, and perhaps in life.'
+      ];
+      document.getElementById('signature-text').textContent = quotes[Math.floor(Math.random() * quotes.length)];
+    })();
+  </script>
+  <noscript>To study AI is to study ourselves.</noscript>
+</div>

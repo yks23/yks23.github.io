@@ -1,4 +1,11 @@
 .about-post { line-height: 1.7; }
+.signature-quote { margin-top: 18px; grid-column: 1 / -1; }
+.signature-quote p, .signature-quote noscript { font-family: Georgia, 'Times New Roman', serif; font-size: 15px; font-weight: 400; font-style: italic; line-height: 1.65; letter-spacing: 0; color: #656565; margin: 0; padding-right: 4px; min-height: 125px; }
+html[data-theme='dark'] .signature-quote p, html[data-theme='dark'] .signature-quote noscript { color: #bcbcbc; }
+@media (max-width: 991.98px) {
+  .signature-quote { margin-top: 0; max-width: 34rem; }
+  .signature-quote p, .signature-quote noscript { font-size: 14px; min-height: 70px; }
+}
 .about-post .about-content { min-width: 0; }
 .about-post h2 { font-size: 1.5rem; margin: 2.5rem 0 1rem; line-height: 1.3; }
 .about-post .about-main-column h2:first-child { margin-top: 0; }
