@@ -5,67 +5,20 @@ permalink: /projects/
 description: Research projects in agents, physical intelligence, and efficient generation.
 nav: true
 nav_order: 3
-display_categories: [papers, benchmarks]
-horizontal: false
 ---
-
-<!-- pages/projects.md -->
-<link rel="stylesheet" href="{{ '/assets/css/projects-refinement.css' | relative_url | bust_file_cache }}">
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
-
-{% else %}
-
-<!-- Display projects without categories -->
-
+<ul class="project-list">
 {% assign sorted_projects = site.projects | sort: "importance" %}
+{% for project in sorted_projects %}
+<li>
+<a href="{{ project.redirect | default: project.url }}"><img src="{{ project.img | relative_url }}" alt="{{ project.title | escape }}" loading="lazy"></a>
+<div><h2><a href="{{ project.redirect | default: project.url }}">{{ project.title }}</a></h2>
+<p>{{ project.description }}</p>
+<div class="project-links"><a href="{{ project.redirect | default: project.url }}">Project</a>{% if project.github %}<a href="{{ project.github }}">Code</a>{% endif %}</div></div>
+</li>
+{% endfor %}
+</ul>
 
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>
-
-## Media Coverage
+<h2 class="media-heading">Media Coverage</h2>
 
 - BrowserBC: [机器之心](https://mp.weixin.qq.com/s/dMAPeqDszlY0eDopwPAu0w)
 - Frontier-Engineering: [机器之心](https://mp.weixin.qq.com/s/4OAjSsihL0T1T9mfXmszDQ)

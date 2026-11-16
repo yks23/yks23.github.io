@@ -1,0 +1,30 @@
+:root,html[data-theme='dark']{--global-bg-color:#f8faf7;--global-text-color:#303832;--global-text-color-light:#667263;--global-theme-color:#476849;--global-hover-color:#254536;--global-divider-color:#d9e1d6;--global-card-bg-color:#f8faf7}
+body.forest-site{background:#f8faf7!important;color:#303832!important;font-family:Georgia,'Times New Roman','Songti SC',serif!important;font-size:17px;line-height:1.85;letter-spacing:0;padding:0!important}
+.forest-site a{color:#476849}.forest-site a:hover{color:#254536;text-decoration:underline;text-underline-offset:4px}
+.forest-site h1,.forest-site h2,.forest-site h3{font-family:inherit!important;color:#254536;letter-spacing:0!important}
+.forest-site .site-nav{max-width:1000px;margin:auto;padding:25px 0;display:flex;justify-content:space-between;align-items:center;gap:24px;font-size:14px}
+.site-nav nav{display:flex;flex-wrap:wrap;gap:8px 26px}.site-nav .site-name{font-weight:bold;font-size:17px;white-space:nowrap}
+.forest-site>.container{max-width:1000px;margin:48px auto 0!important;padding:0;min-height:60vh}
+.forest-site .post-header{margin:0 0 40px;padding:0}.forest-site .post-title{font-size:42px;line-height:1.25;font-weight:bold}.forest-site .post-description{color:#667263;margin-top:14px}
+.forest-site .site-footer{max-width:1000px;margin:48px auto 0;border-top:1px solid #d9e1d6;padding:22px 0 30px;display:flex;justify-content:space-between;gap:16px;font-size:11px;color:#697467}
+.forest-site .publications h2.bibliography{font-size:26px;border-bottom:1px solid #d9e1d6;padding-bottom:12px;margin:40px 0 26px;text-align:left}
+.forest-site .publications ol.bibliography{padding:0}.forest-site .publications ol.bibliography>li{margin:0 0 30px;padding:0;list-style:none}
+.forest-site .publication-highlight{padding:8px 0 12px 18px;margin:0;border-radius:0;background:transparent!important;box-shadow:none!important}
+.forest-site .publications .title{font-family:inherit;font-size:19px;line-height:1.5;font-weight:bold;color:#254536;background:transparent!important}
+.forest-site .publications .author,.forest-site .publications .periodical{font-family:inherit;font-size:14px;line-height:1.7;color:#60665f}
+.forest-site .publications .abbr .badge{background:#e7ede2!important;color:#39533b!important;font-weight:normal;border-radius:2px!important;font-size:11px}
+.forest-site .publications .preview{width:100%;height:96px;object-fit:contain;background:white;box-shadow:none!important}
+.forest-site .publications .links{display:flex;flex-wrap:wrap;gap:8px 16px;margin-top:10px}
+.forest-site .publications .links .btn{font-family:inherit;font-size:13px;padding:0;margin:0;border:0;border-radius:0;text-transform:none;box-shadow:none;background:transparent!important;color:#476849!important}
+.forest-site .publications .hidden.open{background:#eef2ea;border:1px solid #d9e1d6;border-radius:3px;padding:15px;overflow-wrap:anywhere}
+.forest-site pre{white-space:pre-wrap;overflow-wrap:anywhere}.forest-site #bibsearch{font-family:inherit;width:100%;padding:12px 14px;background:transparent;color:#303832;border:1px solid #c9d5c5;border-radius:3px;box-shadow:none;margin-bottom:24px}
+.forest-site .project-list{list-style:none;padding:0;margin:0}.forest-site .project-list li{display:grid;grid-template-columns:170px minmax(0,1fr);gap:28px;padding:28px 0;border-bottom:1px solid #d9e1d6}
+.project-list img{width:170px;height:112px;object-fit:contain;background:#fff}.forest-site .project-list h2{font-size:23px;margin:0 0 8px}.project-list p{font-size:16px;margin:0 0 8px}.project-list .project-links{display:flex;gap:20px;font-size:14px}.forest-site .media-heading{font-size:26px;margin-top:40px}
+.forest-site .news .table{color:#303832;font-size:16px}.forest-site .news th{font-size:13px;font-weight:normal;color:#667263;padding:18px 20px 18px 0;min-width:125px}.forest-site .news td{padding:18px 0}.forest-site .news tr{border-bottom:1px solid #d9e1d6}
+.forest-site a:focus-visible{outline:2px solid #476849;outline-offset:4px}.forest-site ::selection{background:#dce7d3}
+.forest-site .publications h2.bibliography{color:#52654c!important;opacity:1}
+.forest-site .publications .links a.btn{border:0!important;padding:0!important;min-width:0!important;text-decoration:underline;text-underline-offset:4px}
+.forest-site .publications .abbr .badge{box-shadow:none!important}
+.forest-site #bibsearch{max-width:none!important}
+@media(max-width:1100px){.forest-site .site-nav,.forest-site>.container,.forest-site .site-footer{width:auto;margin-left:45px!important;margin-right:45px!important}}
+@media(max-width:650px){body.forest-site{font-size:16px}.forest-site .site-nav,.forest-site>.container,.forest-site .site-footer{margin-left:24px!important;margin-right:24px!important}.forest-site .site-nav{padding:20px 0;font-size:12px}.site-nav nav{gap:8px 18px}.site-nav .site-name{display:none}.forest-site>.container{margin-top:28px!important}.forest-site .post-title{font-size:32px}.forest-site .post-header{margin-bottom:28px}.forest-site .project-list li{grid-template-columns:100px minmax(0,1fr);gap:18px}.project-list img{width:100px;height:90px}.forest-site .project-list h2{font-size:20px}.project-list p{font-size:15px}.forest-site .publications .abbr{max-width:120px;margin-bottom:12px}.forest-site .publications .title{font-size:18px}.forest-site .publication-highlight{padding-left:12px}.forest-site .news th{min-width:85px;padding-right:12px}.forest-site .site-footer{flex-wrap:wrap}.forest-site .news .table{font-size:15px}}

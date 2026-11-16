@@ -42,15 +42,16 @@
       <meta http-equiv="refresh" content="3; url={{ redirect }}">
     {% endif %}
     {% include head.liquid %}
+    <link rel="stylesheet" href="{{ '/assets/css/forest-pages.css' | relative_url | bust_file_cache }}">
   </head>
 
   <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}{% if is_home_splash %} home-turb-decor{% endif %}">
+  <body class="forest-site {% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}{% if is_home_splash %} home-turb-decor{% endif %}">
     {% if is_home_splash %}
       {% include home_splash.liquid %}
     {% endif %}
     <!-- Header -->
-    {% include header.liquid %}
+    {% include forest_nav.liquid %}
     {% if is_home_splash %}
       {% include home_turbulence_holes.liquid %}
     {% endif %}
@@ -83,7 +84,7 @@
     </div>
 
     <!-- Footer -->
-    {% include footer.liquid %}
+    {% include forest_footer.liquid %}
 
     <!-- JavaScripts -->
     {% include scripts.liquid %}
