@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: personal-home
 title: about
 permalink: /
 subtitle: Undergrad in the CST Department of THU
